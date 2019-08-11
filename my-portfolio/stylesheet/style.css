@@ -1,0 +1,364 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/* Main body style */
+
+
+body {
+    background-image: url(http://newenglandonthefly.com/wp-content/uploads/2016/10/TenkaraTroutFishingNewEngland-1-of-1-13-1000x667.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+/* clearfix */
+.header-container:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+/* Header styles */
+.header-container {
+    background-color: white;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Header positioning and styling */
+header {
+    background-color: white;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+    top: 0;
+    left: 50px;
+    right:50px;
+    width: 960px;
+    border: 1px solid rgb(133, 130, 130);
+}
+
+/* Header clearfix */
+header:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+
+/* Header1 styling */
+#my-name {
+    background-color: rgb(66, 184, 184);
+    float: left;
+    padding: 20px;
+    color: white;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Navigation style */
+#nav {
+    float: right;
+    padding:20px;
+    overflow: hidden;
+
+}
+
+/* Main content style */
+.content {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    right:50px;
+    height: 520px;
+} 
+
+/* Footer style */
+#footer {
+    background-color: rgb(133, 130, 130);
+    border-top: solid;
+    border-top-color: rgb(66, 184, 184);
+    border-width: 8px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    position: fixed;
+    bottom:0;
+    right:50px;
+    left:50px;
+    width: 960px;
+}
+
+/*
+  ========================================
+  Main page specific
+  ========================================
+*/
+
+#main-picture {
+    display: inline;
+    float: left;
+    padding:10px;
+}
+
+#about-me {
+    color:rgb(66, 184, 184);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom:15px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(133, 130, 130);
+    padding: 10px;
+}
+
+#footer {
+    color:white;
+}
+
+#about {
+    border-left: 10px;
+}
+
+  
+/* Style the links inside the navigation bar */
+#nav a {
+    float: left;
+    display: block;
+    color: rgb(133, 130, 130);
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+  
+#nav a:hover {
+    border-bottom: 3px solid red;
+}
+  
+#nav a.active {
+    border-bottom: 3px solid red;
+}
+
+/*
+  ========================================
+  Portfolio page specific
+  ========================================
+*/
+
+#portfolio {
+    border-left: 1px solid rgb(133, 130, 130);
+    border-right:1px solid rgb(133, 130, 130);
+}
+
+.games{
+    padding-top:20px;
+}
+
+#space {
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+#frog {
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+#pac {
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+#trail {
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+#geo {
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+#space {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .space {
+    position: absolute;
+    top: 220px;
+    left: 130px;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:55px;
+    padding-right:56px;
+    background-color: rgb(66, 184, 184, 0.5);
+  }
+
+  .space:hover {
+    opacity:1;
+    background-color: rgb(66, 184, 184);
+  }
+
+  #frog {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .frog {
+    position: absolute;
+    top: 220px;
+    left: 343px;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:73px;
+    padding-right:78px;
+    background-color: rgb(66, 184, 184, 0.5);
+  }
+
+  .frog:hover {
+    opacity:1;
+    background-color: rgb(66, 184, 184);
+  }
+
+
+  #pac {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .pac {
+    position: absolute;
+    top: 220px;
+    left: 558px;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:70px;
+    padding-right:72px;
+    background-color: rgb(66, 184, 184, 0.5);
+  }
+
+  .pac:hover {
+    opacity:1;
+    background-color: rgb(66, 184, 184);
+  }
+
+  #geo {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .geo {
+    position: absolute;
+    top: 220px;
+    left: 772px;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:69px;
+    padding-right:71px;
+    background-color: rgb(66, 184, 184, 0.5);
+  }
+
+  .geo:hover {
+    opacity:1;
+    background-color: rgb(66, 184, 184);
+  }
+
+  #trail {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .trail {
+    position: absolute;
+    top: 385px;
+    left: 130px;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:66px;
+    padding-right:66px;
+    background-color: rgb(66, 184, 184, 0.5);
+  }
+
+  .trail:hover {
+    opacity:1;
+    background-color: rgb(66, 184, 184);
+  }
+
+  /*
+  ========================================
+  Contact page specific
+  ========================================
+*/
+  /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom:6px; 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(66, 184, 184);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgb(4, 255, 213);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
+
+  
+
